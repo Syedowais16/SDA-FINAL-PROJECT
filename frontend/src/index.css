@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic Styles for Buttons */
+.btn-primary {
+  background-color: #3b82f6; /* Blue button */
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+/* Card Styles */
+.card {
+  background-color: #2d3748; /* Dark card background */
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #f9fafb;
+}
+
+.card-body {
+  color: #e2e8f0;
+  font-size: 1rem;
+}
+
+/* Background */
+.bg-dark {
+  background-color: #1a202c; /* Darker background */
+}
+
+/* Text Colors */
+.text-light {
+  color: #f9fafb; /* Light text */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1e293b; /* Dark navbar */
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #f9fafb;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.navbar a:hover {
+  color: #3b82f6; /* Hover effect on links */
+}
